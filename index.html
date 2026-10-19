@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mochi-Puff — 3D GPU Fur Simulation</title>
+  <meta name="description" content="Interactive 3D WebGL2/GPGPU fur physics and Marschner hair shading simulation for a stylized creature across studio, nature, and live AR camera environments." />
+  <meta property="og:title" content="Mochi-Puff — 3D GPU Fur Simulation" />
+  <meta property="og:description" content="Interactive 3D WebGL2/GPGPU fur physics and Marschner hair shading simulation for a stylized creature across studio, nature, and live AR camera environments." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Google+Sans+Text:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav id="page-nav" aria-label="Simulation Switcher">
+    <a href="./index.html" class="nav-pill active">Mochi-Puff Fur</a>
+    <a href="./grass.html" class="nav-pill" hidden style="display: none;" aria-hidden="true">GPU Grass Painter</a>
+  </nav>
+  <nav id="scene-nav" class="scene-nav-bar" aria-label="Scene Selection"></nav>
+  <div id="canvas-container" aria-label="Interactive 3D GPU Fur Simulation"></div>
+  <aside id="ui-root" aria-label="Fur and Lighting Controls"></aside>
+  <div id="hud-hint" aria-live="polite"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

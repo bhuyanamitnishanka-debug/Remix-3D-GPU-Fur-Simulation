@@ -1,0 +1,8 @@
+{
+  "name": "Remix 3D GPU Fur Simulation",
+  "description": "Interactive 3D fur physics and hair shading simulation for a stylized creature across studio, nature, and live AR camera environments.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}
